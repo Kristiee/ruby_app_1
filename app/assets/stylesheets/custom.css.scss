@@ -1,4 +1,47 @@
 
-$navbar-default-bg: #08088A;
+$navbar-default-bg: #08088A; 
+// to change navbar color
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo{
+    float: left;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#logo:hover{
+    color:  rgb(206, 216, 114);
+    text-decoration: none;
+}
+.center{
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
+.jumbotron{
+    background-image: asset-url('grey.jpg');
+    height: 550px;
+
+}
+.jumbotron h1{
+    color: rgb(3, 78, 78);
+}
+.btn-xlarge{
+    font-size: 1.7em;
+    background-color: rgb(116, 106, 106);
+}
+.footer{
+    background-color: #08088A;
+    font-size: 1.7em;
+    color: white;
+   
+}
+.footer a:hover{
+    color: #222;
+}
