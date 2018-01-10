@@ -36,6 +36,23 @@ $navbar-default-bg: #08088A;
     font-size: 1.7em;
     background-color: rgb(116, 106, 106);
 }
+.article-action{
+    border-top: 1px solid #eaeaea;
+    padding-top: 5px;
+}
+.description{
+    margin-top: 0; 
+}
+.article-title{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.article-body{
+    border-top: 1px #eaeaea;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
 .footer{
     background-color: #08088A;
     font-size: 1.7em;
